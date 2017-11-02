@@ -15,4 +15,10 @@ function megamultifunction(fileOne, fileTwo) {
   		var merge = firstFile.concat(secondFile);
   		console.log(merge.sort());
 
+		fs.writeFile('./peopleComplete.txt', merge.sort(), "utf-8", function(err) {
+			if (err) throw err;  		
+
 megamultifunction("./people1.json", "./people2.json");
+
+
+
