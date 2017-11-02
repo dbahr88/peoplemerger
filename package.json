@@ -1,0 +1,23 @@
+{
+  "name": "peoplemerger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbahr88/peoplemerger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbahr88/peoplemerger/issues"
+  },
+  "homepage": "https://github.com/dbahr88/peoplemerger#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "merge-json": "0.1.0-b.3"
+  }
+}
